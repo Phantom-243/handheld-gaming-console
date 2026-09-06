@@ -1,0 +1,7 @@
+*.tmp
+*.bak
+*-save.kicad_pcb
+*-save.kicad_sch
+*.kicad_prl
+_autosave-*
+fp-info-cache
