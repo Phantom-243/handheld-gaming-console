@@ -2125,6 +2125,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Switching:TLV62569DBV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -5.08 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TLV62569DBV"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 1.27 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv62569.pdf"
+				(at -6.35 11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Step-Down Buck DC-DC Regulator Adjustable"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TLV62569DBV_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "TLV62569DBV_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "VIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "FB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "custom-components:MAX17048"
 			(pin_names
 				(offset 1.016)
@@ -3210,6 +3402,12 @@
 		(uuid "139f32ac-f969-4fec-b61a-85a97b7eb78c")
 	)
 	(junction
+		(at 259.08 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1d78260f-9c71-4f61-bcac-88af245b210b")
+	)
+	(junction
 		(at 160.02 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3268,6 +3466,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5566926c-c8fe-4e9c-b6cb-e7072760e6bc")
+	)
+	(junction
+		(at 250.19 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "583b01e0-0080-4df5-9026-a5fe9615f855")
 	)
 	(junction
 		(at 101.6 62.23)
@@ -3364,6 +3568,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df009463-6cc0-4bcb-98a5-132fb51597ea")
+	)
+	(junction
+		(at 233.68 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3f49396-2930-47d3-8fdd-4b8b5b4b4a2a")
 	)
 	(junction
 		(at 184.15 146.05)
@@ -3558,6 +3768,16 @@
 			(type default)
 		)
 		(uuid "1b929d75-ca72-45b1-b1f1-6ec478002a14")
+	)
+	(wire
+		(pts
+			(xy 259.08 57.15) (xy 252.73 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b9da403-fdc4-4226-a347-f0657acb3f4a")
 	)
 	(wire
 		(pts
@@ -3831,6 +4051,16 @@
 	)
 	(wire
 		(pts
+			(xy 259.08 59.69) (xy 259.08 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e7a8c54-5130-42a3-b055-2ee359d1e534")
+	)
+	(wire
+		(pts
 			(xy 190.5 43.18) (xy 191.77 43.18)
 		)
 		(stroke
@@ -3858,6 +4088,16 @@
 			(type default)
 		)
 		(uuid "31d41dbc-d5ba-4865-8229-9178d20738f0")
+	)
+	(wire
+		(pts
+			(xy 233.68 55.88) (xy 233.68 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34451f7f-326f-4f98-89fc-211f0eb6773d")
 	)
 	(wire
 		(pts
@@ -3911,6 +4151,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 78.74) (xy 241.3 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cb6cfc0-3e5a-4165-b2ba-cdb024f5db1d")
+	)
+	(wire
+		(pts
 			(xy 160.02 35.56) (xy 160.02 40.64)
 		)
 		(stroke
@@ -3918,6 +4168,26 @@
 			(type default)
 		)
 		(uuid "3f56369d-d38c-436a-be77-f3ac99371959")
+	)
+	(wire
+		(pts
+			(xy 259.08 69.85) (xy 259.08 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f7b416b-16ee-4502-8310-e55c1b9bc70d")
+	)
+	(wire
+		(pts
+			(xy 259.08 86.36) (xy 259.08 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f95aa5e-ed75-4688-a27e-8f4bcbba5db0")
 	)
 	(wire
 		(pts
@@ -3968,6 +4238,16 @@
 			(type default)
 		)
 		(uuid "440e8e4c-e5a8-4cf9-8c6d-361ee15d74d7")
+	)
+	(wire
+		(pts
+			(xy 223.52 57.15) (xy 233.68 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "445f4933-544f-46d4-9941-cafeaf29ae68")
 	)
 	(wire
 		(pts
@@ -4088,6 +4368,16 @@
 			(type default)
 		)
 		(uuid "54077613-b978-4bd2-8478-5da592c098f5")
+	)
+	(wire
+		(pts
+			(xy 233.68 57.15) (xy 237.49 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "546d12fe-ca50-452f-af47-e5a509ada579")
 	)
 	(wire
 		(pts
@@ -4251,6 +4541,16 @@
 	)
 	(wire
 		(pts
+			(xy 260.35 69.85) (xy 259.08 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "604622dd-908b-4ae9-99bb-f2bcce9622bb")
+	)
+	(wire
+		(pts
 			(xy 118.11 144.78) (xy 118.11 143.51)
 		)
 		(stroke
@@ -4321,6 +4621,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 77.47) (xy 250.19 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65af46b0-22c9-44f6-90d0-ed3a1a4984b4")
+	)
+	(wire
+		(pts
 			(xy 198.12 104.14) (xy 196.85 104.14)
 		)
 		(stroke
@@ -4351,6 +4661,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 59.69) (xy 252.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a01b68b-d747-451f-a1ad-7bec483fee14")
+	)
+	(wire
+		(pts
 			(xy 55.88 133.35) (xy 59.69 133.35)
 		)
 		(stroke
@@ -4378,6 +4698,16 @@
 			(type default)
 		)
 		(uuid "6b3cd022-26dc-490a-87a2-d2ae87f9acda")
+	)
+	(wire
+		(pts
+			(xy 223.52 48.26) (xy 223.52 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ba5f368-eaa7-47e6-817d-2f6220c96e8f")
 	)
 	(wire
 		(pts
@@ -4431,6 +4761,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 67.31) (xy 245.11 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f0b875f-0f21-4ba1-92a9-3a6d59874ddf")
+	)
+	(wire
+		(pts
 			(xy 59.69 96.52) (xy 59.69 97.79)
 		)
 		(stroke
@@ -4458,6 +4798,16 @@
 			(type default)
 		)
 		(uuid "731d3d81-7f0d-4be9-b4e0-9f97df8bfc31")
+	)
+	(wire
+		(pts
+			(xy 250.19 86.36) (xy 259.08 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73449fff-41df-46a9-a58b-e654b9ae48fa")
 	)
 	(wire
 		(pts
@@ -4538,6 +4888,16 @@
 			(type default)
 		)
 		(uuid "7c4eeb57-9fd4-430b-be5c-818c1ddf16e7")
+	)
+	(wire
+		(pts
+			(xy 233.68 59.69) (xy 237.49 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cd2473e-75a6-4c3f-8ad6-30841f859a52")
 	)
 	(wire
 		(pts
@@ -5061,6 +5421,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 68.58) (xy 252.73 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa0c8fe-78f4-4cb2-b599-16526c3bd624")
+	)
+	(wire
+		(pts
 			(xy 200.66 54.61) (xy 200.66 57.15)
 		)
 		(stroke
@@ -5191,6 +5561,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 78.74) (xy 250.19 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf041d04-b1dc-4d39-8b9a-156ad19008a4")
+	)
+	(wire
+		(pts
 			(xy 190.5 49.53) (xy 190.5 52.07)
 		)
 		(stroke
@@ -5298,6 +5678,16 @@
 			(type default)
 		)
 		(uuid "d98128ec-2a21-4d44-a073-55b2fb127e69")
+	)
+	(wire
+		(pts
+			(xy 250.19 77.47) (xy 250.19 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da03c7a3-a55b-491e-84d9-68183d4a694c")
 	)
 	(wire
 		(pts
@@ -5561,6 +5951,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 69.85) (xy 259.08 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb85de60-662f-4b3a-8f5d-6980c5cedb29")
+	)
+	(wire
+		(pts
 			(xy 96.52 69.85) (xy 96.52 72.39)
 		)
 		(stroke
@@ -5677,6 +6077,30 @@
 			)
 		)
 	)
+	(global_label "3V3_PERIPH"
+		(shape input)
+		(at 260.35 69.85 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1f49ce77-26cf-4da8-b2a0-96a169c8edb1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 274.7047 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "VBUS_IN"
 		(shape input)
 		(at 97.79 95.25 0)
@@ -5762,6 +6186,30 @@
 		(uuid "567e1908-ed68-43e8-9be7-6a49a58ba406")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 87.63 92.8528 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "RUN_PG"
+		(shape input)
+		(at 233.68 59.69 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d82f75c-24f4-4c05-bf3f-ad39783f9731")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.2562 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6451,6 +6899,88 @@
 			(project "handheld-gaming-console"
 				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/31fd43e2-5bbb-4923-8719-3d73a55f6252"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 259.08 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27642d12-6d4c-4ed7-a214-883f10b909ed")
+		(property "Reference" "L2"
+			(at 260.35 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uH"
+			(at 260.35 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric"
+			(at 259.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 259.08 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "867137b0-88af-4431-a401-8c3349df7c1c")
+		)
+		(pin "1"
+			(uuid "bf0ae706-bb70-43f3-90dc-b710971ad481")
+		)
+		(instances
+			(project "handheld-gaming-console"
+				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/31fd43e2-5bbb-4923-8719-3d73a55f6252"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -7780,6 +8310,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Switching:TLV62569DBV")
+		(at 245.11 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "61000a08-e695-48c3-9f5d-d990106a98b1")
+		(property "Reference" "U4"
+			(at 245.11 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TLV62569DBV"
+			(at 245.11 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 246.38 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tlv62569.pdf"
+			(at 238.76 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High Efficiency Synchronous Buck Converter, Adjustable Output 0.6V-5.5V, 2A, SOT-23-5"
+			(at 245.11 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "a14ba280-d0d7-4068-8a6e-c6d33af4d435")
+		)
+		(pin "4"
+			(uuid "cf8a2232-ad60-4f9f-8030-0542206f5af7")
+		)
+		(pin "1"
+			(uuid "8f49d3d7-7216-4ad6-b899-9d658d11b866")
+		)
+		(pin "2"
+			(uuid "d8e658e4-0cc1-4042-b0ca-d851e67fc861")
+		)
+		(pin "3"
+			(uuid "64796016-5f1c-4947-aa49-d7463890f8bc")
+		)
+		(instances
+			(project "handheld-gaming-console"
+				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/31fd43e2-5bbb-4923-8719-3d73a55f6252"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 118.11 128.27 0)
 		(unit 1)
@@ -8103,6 +8724,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 223.52 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6858a7dd-46ed-4c62-b5af-9d60046d715c")
+		(property "Reference" "#PWR030"
+			(at 223.52 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 43.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "993b47dd-12bf-43b7-be90-56b1225b8a66")
+		)
+		(instances
+			(project "handheld-gaming-console"
+				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/31fd43e2-5bbb-4923-8719-3d73a55f6252"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 140.97 88.9 0)
 		(unit 1)
 		(body_style 1)
@@ -8174,6 +8873,84 @@
 			(project "handheld-gaming-console"
 				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/31fd43e2-5bbb-4923-8719-3d73a55f6252"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70b2ba27-b92e-4cc7-a049-bc26f61d4ebf")
+		(property "Reference" "#PWR029"
+			(at 245.11 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d909c895-7132-42a6-8ee2-f3aaea8daed2")
+		)
+		(instances
+			(project "handheld-gaming-console"
+				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/31fd43e2-5bbb-4923-8719-3d73a55f6252"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8254,6 +9031,170 @@
 			(project "handheld-gaming-console"
 				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/31fd43e2-5bbb-4923-8719-3d73a55f6252"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 241.3 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "760360ad-5283-484d-924d-b66a9ae0b101")
+		(property "Reference" "R15"
+			(at 243.84 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 243.84 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 239.522 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 241.3 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcfe2b9d-4f60-4f92-87db-39fa31fb8c26")
+		)
+		(pin "2"
+			(uuid "d6824757-46ee-4176-b467-909a5a3132ae")
+		)
+		(instances
+			(project "handheld-gaming-console"
+				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/31fd43e2-5bbb-4923-8719-3d73a55f6252"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 252.73 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "760cff30-9314-4311-8aed-b9544e44bff3")
+		(property "Reference" "C14"
+			(at 256.54 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 256.54 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 253.6952 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 252.73 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6343d32-4fd4-48a6-9a6b-020beba08a21")
+		)
+		(pin "2"
+			(uuid "50759395-510e-4701-b9e4-c6dca1ab8cef")
+		)
+		(instances
+			(project "handheld-gaming-console"
+				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/31fd43e2-5bbb-4923-8719-3d73a55f6252"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -9517,6 +10458,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 252.73 77.47 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9db1e661-5471-4e20-8f67-a134632a6479")
+		(property "Reference" "#PWR031"
+			(at 259.08 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 256.54 77.4699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 252.73 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05b9cce0-8a2b-4e61-8540-fa37f81d7bd5")
+		)
+		(instances
+			(project "handheld-gaming-console"
+				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/31fd43e2-5bbb-4923-8719-3d73a55f6252"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 110.49 62.23 90)
 		(unit 1)
 		(body_style 1)
@@ -9753,6 +10773,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 233.68 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "abecff59-411d-46a8-8c7c-cccde51e6aca")
+		(property "Reference" "#PWR028"
+			(at 233.68 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 233.68 50.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 233.68 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89f96201-0b27-4705-a160-083ab95b1b2d")
+		)
+		(instances
+			(project "handheld-gaming-console"
+				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/31fd43e2-5bbb-4923-8719-3d73a55f6252"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 74.93 139.7 270)
 		(unit 1)
@@ -9905,6 +11003,85 @@
 			(project "handheld-gaming-console"
 				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/31fd43e2-5bbb-4923-8719-3d73a55f6252"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 241.3 86.36 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9436a36-7764-4254-90e0-ba28f8580937")
+		(property "Reference" "#PWR032"
+			(at 247.65 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 86.3599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 241.3 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "417493b2-d5f3-43a1-be6c-be0f656e42cd")
+		)
+		(instances
+			(project "handheld-gaming-console"
+				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/31fd43e2-5bbb-4923-8719-3d73a55f6252"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -10380,6 +11557,88 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 223.52 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7e009db-382a-4524-9686-7b363334e466")
+		(property "Reference" "C13"
+			(at 227.33 52.0699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 227.33 54.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 224.4852 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 223.52 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1abb9683-975f-4746-ad71-2962d163f35f")
+		)
+		(pin "2"
+			(uuid "e62e5df2-f49b-4d4d-a787-d71b35e63d7a")
+		)
+		(instances
+			(project "handheld-gaming-console"
+				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/31fd43e2-5bbb-4923-8719-3d73a55f6252"
+					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 120.65 85.09 0)
 		(unit 1)
 		(body_style 1)
@@ -10614,6 +11873,88 @@
 			(project "handheld-gaming-console"
 				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/31fd43e2-5bbb-4923-8719-3d73a55f6252"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 250.19 82.55 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e336d4c6-da7d-474d-9ff3-2fd47e8c0617")
+		(property "Reference" "R14"
+			(at 252.73 81.2799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "453k"
+			(at 252.73 83.8199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.968 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 250.19 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "606f6dd7-fc0a-44e5-8153-3781387d25b6")
+		)
+		(pin "1"
+			(uuid "144dc6cc-93aa-4e5d-ae17-7d44e132697d")
+		)
+		(instances
+			(project "handheld-gaming-console"
+				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/31fd43e2-5bbb-4923-8719-3d73a55f6252"
+					(reference "R14")
 					(unit 1)
 				)
 			)
