@@ -685,7 +685,7 @@
         "uuid": "888c448d-6c8e-4815-9453-39981fbb99f0"
       }
     ],
-    "used_designators": "#FLG1-3,L1-2,F1,U1-4,#PWR1-32,D1-2,C1-14,R1-15,J1-2",
+    "used_designators": "#FLG1-3,L1-2,F1,U1-4,#PWR1-86,D1-2,C1-14,R1-15,J1-4",
     "variants": []
   },
   "sheets": [
@@ -696,6 +696,10 @@
     [
       "31fd43e2-5bbb-4923-8719-3d73a55f6252",
       "Power_Management"
+    ],
+    [
+      "50a6ba31-fd89-4309-84db-156a4b171ac8",
+      "Compute_Core"
     ]
   ],
   "text_variables": {},
