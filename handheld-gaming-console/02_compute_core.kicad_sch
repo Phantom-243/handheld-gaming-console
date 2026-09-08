@@ -3085,6 +3085,12 @@
 		(uuid "77c18534-48af-4ba1-961b-d83a32a44931")
 	)
 	(junction
+		(at 245.11 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84dc4cab-cd5b-4229-8c74-e339fc5e3fd8")
+	)
+	(junction
 		(at 74.93 142.24)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3149,6 +3155,26 @@
 			(type default)
 		)
 		(uuid "0652bd67-47ba-449a-8124-78f1aa71c765")
+	)
+	(wire
+		(pts
+			(xy 260.35 88.9) (xy 264.16 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f348e57-3378-49aa-8ddf-829311e2bf38")
+	)
+	(wire
+		(pts
+			(xy 72.39 106.68) (xy 74.93 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d4eeab-25cb-4d1d-aea3-176c4b239671")
 	)
 	(wire
 		(pts
@@ -3592,6 +3618,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 101.6) (xy 74.93 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b452ca92-df23-4835-8048-9fd82ad94aeb")
+	)
+	(wire
+		(pts
 			(xy 223.52 74.93) (xy 223.52 55.88)
 		)
 		(stroke
@@ -3602,7 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 92.71) (xy 246.38 92.71)
+			(xy 243.84 92.71) (xy 245.11 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3639,6 +3675,16 @@
 			(type default)
 		)
 		(uuid "bef9c391-c039-48be-82e0-a9fba274f77b")
+	)
+	(wire
+		(pts
+			(xy 245.11 92.71) (xy 246.38 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf596a7b-df2b-49f2-842d-40a7996cf238")
 	)
 	(wire
 		(pts
@@ -3742,6 +3788,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 88.9) (xy 245.11 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd874b96-8767-4259-8e6c-796528a7d608")
+	)
+	(wire
+		(pts
 			(xy 251.46 52.07) (xy 257.81 52.07)
 		)
 		(stroke
@@ -3769,6 +3825,16 @@
 			(type default)
 		)
 		(uuid "e9693029-fc90-41b3-a10c-e98442ad7ced")
+	)
+	(wire
+		(pts
+			(xy 245.11 88.9) (xy 245.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec09544b-bee4-4c68-a8ad-82f9ceb646bc")
 	)
 	(wire
 		(pts
@@ -3809,6 +3875,30 @@
 			(type default)
 		)
 		(uuid "f8cfc024-d090-49cc-a9aa-850e1cefef59")
+	)
+	(global_label "UART2_RX"
+		(shape input)
+		(at 72.39 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0014a8c7-630b-48e0-915b-1e24079835fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.0915 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 	)
 	(global_label "USB_DN"
 		(shape input)
@@ -4338,6 +4428,30 @@
 			)
 		)
 	)
+	(global_label "UART2_TX"
+		(shape input)
+		(at 72.39 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "93cc6b58-adf4-48aa-a2a9-16d541256ed8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 60.3939 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "TOUCH_SDA"
 		(shape input)
 		(at 91.44 139.7 0)
@@ -4447,6 +4561,30 @@
 		(uuid "a4a33ae0-473d-48ef-95fd-5b40f777202b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 100.5938 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "CORE_3V3"
+		(shape input)
+		(at 264.16 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a9789470-9319-4919-8167-d579c5eba5c9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.6399 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5496,85 +5634,6 @@
 			(project "handheld-gaming-console"
 				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/50a6ba31-fd89-4309-84db-156a4b171ac8"
 					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 99.06 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2424eb81-9911-45ec-81e6-62a9e818e597")
-		(property "Reference" "#PWR050"
-			(at 68.58 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 99.0599 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4c546120-a810-4c66-85ae-1661915b555e")
-		)
-		(instances
-			(project "handheld-gaming-console"
-				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/50a6ba31-fd89-4309-84db-156a4b171ac8"
-					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -7858,85 +7917,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 74.93 83.82 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "899284e3-28bc-4f79-b714-46ad2124150e")
-		(property "Reference" "#PWR046"
-			(at 68.58 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 83.8199 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "db69169d-3d10-49ed-b043-5a14feb15705")
-		)
-		(instances
-			(project "handheld-gaming-console"
-				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/50a6ba31-fd89-4309-84db-156a4b171ac8"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 74.93 53.34 270)
 		(unit 1)
 		(body_style 1)
@@ -8722,6 +8702,86 @@
 			(project "handheld-gaming-console"
 				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/50a6ba31-fd89-4309-84db-156a4b171ac8"
 					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 256.54 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a62d9e34-f001-4446-b8c5-291d95412ff3")
+		(property "Reference" "R33"
+			(at 256.54 82.55 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 256.54 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 256.54 90.678 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 256.54 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6e44e94-7942-41c0-9a28-77816982b514")
+		)
+		(pin "2"
+			(uuid "043f9019-9bed-47ab-a4fa-37841b9e8e4e")
+		)
+		(instances
+			(project "handheld-gaming-console"
+				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/50a6ba31-fd89-4309-84db-156a4b171ac8"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -9775,164 +9835,6 @@
 			(project "handheld-gaming-console"
 				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/50a6ba31-fd89-4309-84db-156a4b171ac8"
 					(reference "#PWR049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 76.2 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7b5ab77-c284-471e-b3fc-77cf9f755025")
-		(property "Reference" "#PWR044"
-			(at 68.58 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 76.1999 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "400ceb91-85d5-475e-a345-9fa11e9bb885")
-		)
-		(instances
-			(project "handheld-gaming-console"
-				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/50a6ba31-fd89-4309-84db-156a4b171ac8"
-					(reference "#PWR044")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 68.58 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7fac561-c12e-4405-9094-0f42f3876cc6")
-		(property "Reference" "#PWR042"
-			(at 68.58 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 68.5799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 74.93 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ef614d27-ee10-489f-b8d1-136faebc55fe")
-		)
-		(instances
-			(project "handheld-gaming-console"
-				(path "/888c448d-6c8e-4815-9453-39981fbb99f0/50a6ba31-fd89-4309-84db-156a4b171ac8"
-					(reference "#PWR042")
 					(unit 1)
 				)
 			)
