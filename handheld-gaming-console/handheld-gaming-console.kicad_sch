@@ -52,6 +52,52 @@
 		)
 	)
 	(sheet
+		(at 187.96 120.65)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4d2c782b-90a8-4f8f-8c5b-e8d56b15747a")
+		(property "Sheetname" "Display_Touch"
+			(at 187.96 119.9384 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04_display_touch.kicad_sch"
+			(at 187.96 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "handheld-gaming-console"
+				(path "/888c448d-6c8e-4815-9453-39981fbb99f0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 67.31 114.3)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
