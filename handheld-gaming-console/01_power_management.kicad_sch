@@ -7706,7 +7706,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "22uF"
 			(at 175.26 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
