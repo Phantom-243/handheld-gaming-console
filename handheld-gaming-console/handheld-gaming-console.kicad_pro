@@ -685,7 +685,7 @@
         "uuid": "888c448d-6c8e-4815-9453-39981fbb99f0"
       }
     ],
-    "used_designators": "Q1-4,FB1,C1-43,U1-10,SW1-2,#FLG1-3,L1-3,D1-14,#PWR1-147,Y1,F1,R1-48,J1-9",
+    "used_designators": "Q1-4,FB1,C1-50,U1-12,SW1-4,#FLG1-3,L1-3,D1-14,#PWR1-159,Y1-2,F1,R1-55,J1-9",
     "variants": []
   },
   "sheets": [
@@ -708,6 +708,10 @@
     [
       "4d2c782b-90a8-4f8f-8c5b-e8d56b15747a",
       "Display_Touch"
+    ],
+    [
+      "ac4aade3-c13d-47e4-a4f3-d6b69467b873",
+      "Gamepad_Controller"
     ]
   ],
   "text_variables": {},

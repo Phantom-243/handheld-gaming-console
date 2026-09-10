@@ -144,6 +144,52 @@
 		)
 	)
 	(sheet
+		(at 167.64 172.72)
+		(size 12.7 3.81)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ac4aade3-c13d-47e4-a4f3-d6b69467b873")
+		(property "Sheetname" "Gamepad_Controller"
+			(at 167.64 172.0084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "05_gamepad.kicad_sch"
+			(at 167.64 177.1146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "handheld-gaming-console"
+				(path "/888c448d-6c8e-4815-9453-39981fbb99f0"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 95.25 171.45)
 		(size 12.7 3.81)
 		(exclude_from_sim no)
