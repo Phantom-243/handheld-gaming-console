@@ -685,7 +685,7 @@
         "uuid": "888c448d-6c8e-4815-9453-39981fbb99f0"
       }
     ],
-    "used_designators": "Q1-4,FB1,C1-54,U1-12,SW1-18,#FLG1-3,L1-3,D1-14,#PWR1-172,Y1-2,F1,R1-59,J1-11",
+    "used_designators": "Q1-4,FB1-2,C1-56,U1-13,SW1-18,#FLG1-3,L1-3,D1-14,#PWR1-177,Y1-2,F1,R1-61,J1-12",
     "variants": []
   },
   "sheets": [
@@ -712,6 +712,10 @@
     [
       "ac4aade3-c13d-47e4-a4f3-d6b69467b873",
       "Gamepad_Controller"
+    ],
+    [
+      "b111c76d-b898-4dd2-a075-032b059ba30f",
+      "Audio_Subsystem"
     ]
   ],
   "text_variables": {},
